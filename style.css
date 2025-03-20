@@ -1,10 +1,7 @@
 body {
-  background-color: rgb(66,95,117);
+  background-color: rgb(242,145,91);
   text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  margin-top: 10%;
+  margin: 1%;
   font-family: Georgia, serif;
 }
 
@@ -13,17 +10,19 @@ html{
   width: 100%;
 }
 
+
 #myCanvas {
   border: 2px solid black;
+  margin: 5px;
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
-  justify-content: space-around;
-  align-items: flex-start;
+  background-color: rgb(66,95,117);
+  justify-content: center;
   padding-bottom: 20px;
+  border: 12px outset rgb(8,27,114);
 }
 
 .pic{
@@ -31,17 +30,13 @@ html{
   width: 400px;
   object-fit: cover;
   border: 2px solid black;
+  margin: 5px;
 }
+
 
 h2{
-  color: blue;
+  color: rgb(249,249,247);
   font-family: arial, serif;
+  text-align: center;
 }
 
-#start{
-  text-align: left;
-}
-
-#end{
-  text-align: right;
-}
